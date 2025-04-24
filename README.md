@@ -56,4 +56,10 @@ crypto/
 ![Screenshot 2025-04-24 075942](https://github.com/user-attachments/assets/32521872-24a7-4861-8dbe-19b9cacd69e1)
 
 
+clone Repo 
+git clone https://github.com/vikasyadavvvv/cryptoTracker.git
+npm install
+npm run start
+
+
 
