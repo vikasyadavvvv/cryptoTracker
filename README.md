@@ -1,4 +1,4 @@
-# Crypto Dashboard
+# Crypto
 
 A simple cryptocurrency dashboard displaying real-time data for various assets including their price, changes, market cap, volume, and more.
 
@@ -55,6 +55,6 @@ crypto/
 
 ## Demo Video
 
-![Demo](crypto/src/assets/20250424-0215-53.4843827.mp44)
+![Demo](crypto/src/assets/20250424-0215-53.4843827.mp4)
 
 
