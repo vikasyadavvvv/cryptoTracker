@@ -65,7 +65,7 @@ Follow the steps below to set up and run the project locally:
 git clone https://github.com/vikasyadavvvv/cryptoTracker.git
 
 # Navigate into the project directory
-cd cryptoTracker
+cd crypto
 
 # Install the dependencies
 npm install
