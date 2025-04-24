@@ -1,8 +1,60 @@
-# React + Vite
+# Crypto Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple cryptocurrency dashboard displaying real-time data for various assets including their price, changes, market cap, volume, and more.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React.js
+- **State Management**: Redux
+- **Styling**: TailwindCSS
+- **Charts**: CoinGecko API / Chart Images from external sources
+- **Responsive Design**: TailwindCSS (for a mobile-first layout)
+
+## Features
+
+- Real-time cryptocurrency data display
+- Live updates for price, 24h, and 7d changes
+- Dynamic asset tracking
+- Interactive charts
+- Fully responsive design for mobile and desktop
+
+## Architecture
+
+The project is built with a modular approach where:
+- **React Components**: Handle UI rendering and user interaction.
+- **Redux Store**: Manages global state such as cryptocurrency data, prices, and other related assets.
+- **TailwindCSS**: Provides utility-first CSS classes for responsive and clean styling.
+
+## Folder Structure
+
+crypto/
+│
+├── public/
+│   ├── index.html
+│   └── ...
+│
+├── src/
+│   ├── assets/
+│   │   └── (Images, icons, logos)
+│   ├── components/
+│   │   ├── CryptoRow.js          
+│   │   ├── CryptoTable.js        # Displays the table of cryptocurrencies
+│   │   └── CryptoUpdater.js      # Handles the updating of crypto data
+│   ├── features/
+│   │   └── crypto/
+│   │       └── CryptoSlice.js    # Redux slice for crypto state
+│   ├── app/
+│   │   └── store.js              # Redux store configuration
+│   ├── App.js                    # Main app component
+│   ├── index.css                 # Global styles (including TailwindCSS)
+│   └── index.js                  # React entry point
+│
+└── package.json
+
+
+
+## Demo Video
+
+![Demo](./assets/20250424-0215-53.4843827.mp44)
+
+
