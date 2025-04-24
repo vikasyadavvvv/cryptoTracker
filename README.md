@@ -55,6 +55,6 @@ crypto/
 
 ## Demo Video
 
-![Demo](.src/assets/20250424-0215-53.4843827.mp44)
+![Demo](crypto/src/assets/20250424-0215-53.4843827.mp44)
 
 
