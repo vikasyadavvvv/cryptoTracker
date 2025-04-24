@@ -52,9 +52,8 @@ crypto/
 └── package.json
 
 
+![Screenshot 2025-04-24 080029](https://github.com/user-attachments/assets/f525e087-cea3-4093-85f1-b089b2b3a136)
+![Screenshot 2025-04-24 075942](https://github.com/user-attachments/assets/32521872-24a7-4861-8dbe-19b9cacd69e1)
 
-## Demo Video
-
-![Demo](crypto/src/assets/20250424-0215-53.4843827.mp4)
 
 
