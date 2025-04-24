@@ -56,10 +56,19 @@ crypto/
 ![Screenshot 2025-04-24 075942](https://github.com/user-attachments/assets/32521872-24a7-4861-8dbe-19b9cacd69e1)
 
 
--clone Repo 
--git clone https://github.com/vikasyadavvvv/cryptoTracker.git
--npm install
--npm run start
+## 🚀 Getting Started
 
+Follow the steps below to set up and run the project locally:
 
+```bash
+# Clone the repository
+git clone https://github.com/vikasyadavvvv/cryptoTracker.git
 
+# Navigate into the project directory
+cd cryptoTracker
+
+# Install the dependencies
+npm install
+
+# Start the development server
+npm run start
